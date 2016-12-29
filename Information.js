@@ -231,4 +231,22 @@ npm install --save body-parser
 <%- %> show as html
 */
 
+/*
+
+GIT Commands 
+
+git status 
+
+git commit -m "message"
+
+git add --all 
+this will add all 
+
+git push origin master 
+
+this will push 
+
+
+*/
+
 
