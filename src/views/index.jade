@@ -1,0 +1,41 @@
+html
+	head
+
+		//- bower:css
+		link(rel='stylesheet', href='/lib/bootstrap/dist/css/bootstrap.min.css')
+		link(rel='stylesheet', href='/lib/font-awesome/css/font-awesome.min.css')
+		//- endbower
+
+
+		//- bower:js
+		script(src='/lib/jquery/dist/jquery.js')
+		script(src='/lib/bootstrap/dist/js/bootstrap.js')
+		//- endbower
+
+
+		//- inject:css
+
+		link(rel="stylesheet", href="/css/styles.css")
+
+		//- endinject
+
+
+		//- inject:js
+		
+		script(src="/js/app.js")
+		
+		//- endinject
+
+
+		title my node app
+
+	body(class=["mytest-class"])
+		h1(id="test-id") this si H1 tag
+		p this si p tag
+		p 
+			h1 this is h1 inside p tag.
+		this is p tag
+
+		ul
+			each val in list
+				li= val
